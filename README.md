@@ -27,22 +27,19 @@ https://github.com/anatelli10/macOSNativeModuleExample/assets/70483566/f31b6bf2-
 
    You'll want to make sure your project can build/run using Xcode.
 
-   > ⚠️ If you run into the following build error:
-   >
-   > ```
-   > Command PhaseScriptExecution failed with a nonzero exit code
-   > ```
-   >
-   > Modify `node_modules/react-native/scripts/find-node.sh` @ L7
-   >
-   > ```diff
-   > - set -e
-   > + set +e
-   > ```
-   >
-   > see https://github.com/facebook/react-native/issues/36762#issuecomment-1535910492
-   >
-   > There may be other better solutions for this such as updating CocoaPods, but this worked for me and took way too long to find the solution for so I'm not going to spend any more time on it. 🤣
+    <details>
+      <summary>⚠️ Build error: "Command PhaseScriptExecution failed with a nonzero exit code"</summary>
+  
+    There may be other better solutions for this such as updating CocoaPods, but this worked for me:
+    
+    Modify `node_modules/react-native/scripts/find-node.sh` @ L7
+    
+    ```diff
+    - set -e
+    + set +e
+    ```
+    see https://github.com/facebook/react-native/issues/36762#issuecomment-1535910492
+    </details>
 
 1. From project root dir run `xed -b macos` to open Xcode.
 1. Navigate to the folder containing `AppDelegate`.
@@ -87,7 +84,7 @@ https://github.com/anatelli10/macOSNativeModuleExample/assets/70483566/f31b6bf2-
 
 </details>
 
-# Example Asynchronous method
+# Example asynchronous method
 
 <details>
   <summary>Example</summary>
@@ -151,7 +148,7 @@ const status = await MusicKitModule.requestAuthorization();
 
 </details>
 
-# Example Synchronous method
+# Example synchronous method
 
 <details>
   <summary>Example</summary>
