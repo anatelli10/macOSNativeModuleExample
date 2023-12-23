@@ -1,4 +1,4 @@
-# macos-native-module-example
+# macOSNativeModuleExample
 
 Proof of concept/exemplification of how to write React Native Modules for macOS using Swift. Includes asynchronous and synchronous examples. This almost entirely also applies to iOS, though for iOS you should probably instead use the [Expo Modules API](https://docs.expo.dev/modules/overview/).
 
