@@ -30,7 +30,7 @@ https://github.com/anatelli10/macOSNativeModuleExample/assets/70483566/f31b6bf2-
     <details>
       <summary>⚠️ Build error: "Command PhaseScriptExecution failed with a nonzero exit code"</summary>
   
-    There may be other better solutions for this such as updating CocoaPods, but this worked for me:
+    There may be other better solutions for this such as changing Node related configuration or updating CocoaPods, but this worked for me:
     
     Modify `node_modules/react-native/scripts/find-node.sh` @ L7
     
