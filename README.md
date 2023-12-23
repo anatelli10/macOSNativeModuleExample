@@ -168,6 +168,7 @@ const status = await MusicKitModule.requestAuthorization();
       return "Unsupported iOS"
     }
   }
+}
 ```
 
 ## Objective-C (`.m`)
