@@ -1,10 +1,17 @@
 # macOSNativeModuleExample
-
-Proof of concept/exemplification of how to write React Native Modules for macOS using Swift. Includes asynchronous and synchronous examples. This almost entirely also applies to iOS, though for iOS you should probably instead use the [Expo Modules API](https://docs.expo.dev/modules/overview/).
-
 > [!NOTE]
-> This example is only relevant for writing logic/functions, **not user interfaces**.
+> This example is focused on writing logic/functions and **may not be applicable to creating user interfaces**.
 
+Proof of concept/exemplification of how to write React Native Modules for macOS using Swift. Includes asynchronous and synchronous examples interacting with Apple MusicKit.
+
+This almost entirely also applies to iOS, though for iOS you should probably instead use the [Expo Modules API](https://docs.expo.dev/modules/overview/).
+
+## Implementation Files
+- [App.tsx](https://github.com/anatelli10/macOSNativeModuleExample/blob/main/App.tsx)
+- [macos/macOSNativeModuleExample-macOS/MusicKitModule.swift](https://github.com/anatelli10/macOSNativeModuleExample/blob/main/macos/macOSNativeModuleExample-macOS/MusicKitModule.swift)
+- [macos/macOSNativeModuleExample-macOS/MusicKitModule.m](https://github.com/anatelli10/macOSNativeModuleExample/blob/main/macos/macOSNativeModuleExample-macOS/MusicKitModule.m)
+
+# Demo
 https://github.com/anatelli10/macOSNativeModuleExample/assets/70483566/f31b6bf2-cf3c-4cd9-afd6-59bf9b318bca
 
 # How to create a React Native Module for macOS
