@@ -11,7 +11,7 @@ This almost entirely also applies to iOS, though for iOS you should probably ins
 - [macos/macOSNativeModuleExample-macOS/MusicKitModule.swift](https://github.com/anatelli10/macOSNativeModuleExample/blob/main/macos/macOSNativeModuleExample-macOS/MusicKitModule.swift)
 - [macos/macOSNativeModuleExample-macOS/MusicKitModule.m](https://github.com/anatelli10/macOSNativeModuleExample/blob/main/macos/macOSNativeModuleExample-macOS/MusicKitModule.m)
 
-# Demo
+## Demo
 https://github.com/anatelli10/macOSNativeModuleExample/assets/70483566/f31b6bf2-cf3c-4cd9-afd6-59bf9b318bca
 
 # How to create a React Native Module for macOS
