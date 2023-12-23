@@ -132,7 +132,7 @@ This is a minimal example, you could expand this by following [this guide](https
 
 - Import `NativeModules`
 - Your module is a property on the `NativeModules` import, corresponds to the same file name used in ObjC/Swift.
-- Use `await
+- Use `await` (or chain `.then()`)
 
 ```tsx
 import {NativeModules} from 'react-native';
